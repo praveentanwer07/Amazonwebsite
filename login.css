@@ -1,0 +1,155 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    margin:2px;
+    height:10vh;
+    width:100% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border:2px solid black; */
+}
+header div{
+    height: 100px;
+    width: 100px;
+    margin-bottom:20px;
+
+}
+header div img{
+    height: 100%;
+    width: 100%;
+}
+main{
+    margin:5px;
+    height: 70vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    /* border:2px solid black; */
+}
+footer{
+    margin:5px;
+    height: 10vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+}
+.items{
+    margin:5px;
+    height: 96%;
+    width: 28%;
+    border:2px solid rgb(221,221,221);
+    box-shadow: 0 0 2px rgb(228,224,224);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.items h3{
+margin:1rem;
+margin-bottom: 1;
+width: 90%;
+font-size: x-large;
+}
+.items label{
+    margin:0.9rem;
+margin-bottom: 1;
+width: 90%;
+font-weight: 500;
+}
+.items div input{
+    margin:1rem;
+   height: 70%;
+    width: 90%;
+}
+.items div button{
+    margin:1rem;
+    height: 70%;
+     width: 90%;
+     border-radius: 8px;
+     background-color: yellow;
+     color: black;
+     border:none;
+     cursor: pointer;
+
+}
+.items p{
+    margin:1rem;
+    height: 70%;
+     width: 90%;
+     font-size: 14px;
+    
+}
+.items p a{
+    color:#2c92a0;
+}
+.items p a:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.dropdown h5{
+    color:#2c92a0;
+    margin:1rem;
+    cursor: pointer;
+    margin-bottom: 0;
+
+}
+.dropdown a{
+    display: block;
+    color: #2c92a0;
+    cursor:pointer;
+    margin: 0 1rem;
+    font-size: small;
+}
+.dropdown:hover{
+    text-decoration: underline;
+}
+.dropdown .child{
+    text-decoration: none;
+    display: none;
+}
+.dropdown:hover .child{
+    display: block;
+}
+.info h4{
+    margin:1rem;
+    margin-top: 0;
+    height: 10%;
+}
+.info a{
+    margin:1rem;
+    margin-top: 0;
+    height: 10%;
+    font-size: small;
+    text-decoration: none;
+    color:#2c92a0;
+}
+.info a:hover{
+    text-decoration: underline;
+}
+#hr{
+    margin:1rem;
+    width:90%;
+
+}
+.center{
+    height:8vh;
+    width:28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
